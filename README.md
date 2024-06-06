@@ -40,3 +40,5 @@ collage = splice(patches_np, patches_xy, thresh=30)
 
 `patches_np` should be a NumPy array of your patches, and `patches_xy` should be a NumPy array of the (x, y) coordinates for each patch. `thresh` is an optional parameter that determines the percentile for including or excluding patches based on their color histogram similarity. The default value is 30. the function returns a collage of selected patches as a NumPy array.
 
+## Disclaimer
+This technology is intended for research purposes only. Any commercial use is prohibited. 
